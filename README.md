@@ -1,8 +1,7 @@
 # Prompt Injection Attacks on Medical LLMs
 
 A research project investigating the vulnerability of medical large language models to prompt injection attacks, with a novel graph-based detection approach using UMLS knowledge graphs.
-
-**Course:** CS 598 – Security & Privacy in ML  
+ 
 **University:** University of Illinois Chicago (UIC)  
 **Author:** Meghana Nataraju
 
