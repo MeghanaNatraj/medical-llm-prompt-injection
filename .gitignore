@@ -1,0 +1,7 @@
+config.py
+*.pt
+*.xlsx
+__pycache__/
+venv/
+*.pyc
+.env
