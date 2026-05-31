@@ -1,0 +1,14 @@
+config.py
+*.csv
+*.pkl
+*.pt
+*.xlsx
+*.out
+*.pdf
+*.png
+__pycache__/
+*.pyc
+.env
+.DS_Store
+files/
+*.zip
