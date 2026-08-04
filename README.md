@@ -23,8 +23,6 @@ Our results show that medical fine-tuning does not confer robustness to prompt i
 - [Setup](#setup)
 - [Running Experiments](#running-experiments)
 - [Infrastructure](#infrastructure)
-- [Citation](#citation)
-
 ---
 
 ## Motivation
