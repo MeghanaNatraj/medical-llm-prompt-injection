@@ -1,11 +1,5 @@
 # Prompt Injection Attacks on Medical Large Language Models
 
-**Author:** Meghana Nataraju  
-**Institution:** University of Illinois Chicago (UIC)  
-**Course:** CS598 — Security and Privacy in Machine Learning
-
----
-
 ## Abstract
 
 Medical large language models (LLMs) are increasingly deployed in clinical decision support, patient-facing tools, and biomedical research pipelines. Yet their robustness against adversarial prompt manipulation remains critically understudied. This work presents a systematic empirical evaluation of **8 distinct prompt injection attack strategies** applied to **4 medical LLMs** across **2 biomedical QA benchmarks** (1,000 PubMedQA + 1,273 MedQA USMLE questions, totaling ~18,000 model inference calls). We further design and evaluate a **Graph Attention Network (GAT)-based detector** that constructs UMLS biomedical knowledge graph subgraphs from queries to identify attacked inputs — a method specifically suited to the structured, ontology-rich nature of medical language.
@@ -445,22 +439,6 @@ All model inference experiments were conducted on **NCSA Delta HPC**:
 - **Partition:** `gpuA40x4`
 - **Quantization:** 4-bit NF4 reduces model memory from ~14–18GB to ~4–6GB
 - **Typical job time:** 1.5–2.5 hours per model × dataset combination
-
----
-
-## Citation
-
-If you use this work, please cite:
-
-```bibtex
-@misc{nataraju2026promptinjection,
-  title   = {Prompt Injection Attacks on Medical Large Language Models},
-  author  = {Nataraju, Meghana},
-  year    = {2026},
-  institution = {University of Illinois Chicago},
-  note    = {CS598 Security and Privacy in Machine Learning}
-}
-```
 
 ---
 
