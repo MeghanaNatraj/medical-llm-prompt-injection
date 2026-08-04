@@ -10,7 +10,6 @@
 #SBATCH --time=08:00:00
 #SBATCH --output=medgemma_pubmedqa_%j.out
 #SBATCH --mail-type=END,FAIL
-#SBATCH --mail-user=mnata5@uic.edu
 source /sw/rh9.4/python/miniforge3/etc/profile.d/conda.sh
 conda activate medgemma
 cd /scratch/beqz/mnataraju/medgemma-project
